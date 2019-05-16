@@ -1,3 +1,5 @@
+//Akshdeep kaur
+//student id - C0738118
 import static org.junit.Assert.*;
 
 import org.junit.Before;
@@ -27,5 +29,16 @@ else {
 	System.out.println("snake is unhealthy");
 }
 	}
+	
 
+	@Test
+	public void FitInCage(int SnakeLength) {
+		int cageLength = 70;
+		if (cageLength<SnakeLength);
+		System.out.println("Snake is smaller then cage");
+		
+		if(cageLength>SnakeLength);
+		System.out.println("Snake is bigger than cage");
+	}
+	
 }
